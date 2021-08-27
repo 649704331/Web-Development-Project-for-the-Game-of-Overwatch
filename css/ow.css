@@ -1,0 +1,809 @@
+/* header */
+html,body{
+    min-width: 1200px;
+}
+#header{
+    width:100%;
+    height:60px;
+    background: rgba(40,53,79,0.9);
+    position: fixed;
+    z-index: 1000;
+}
+#header nav{
+    width: 1200px;
+    margin:auto;
+}
+#header img{
+    float: left;
+}
+#header ul{
+    list-style: none;
+    float: left;
+    margin: 0;
+}
+#header ul li{
+
+    float: left;
+}
+#header ul li a{
+    transition: all 0.5s;
+    text-align: center;
+    display: block;
+    width: 100px;
+    line-height:60px;
+    color: #fff;
+    text-decoration: none;
+}
+#header ul li a:hover{
+    background: rgba(35, 45, 71, 0.9);
+}
+#header ul li a.active{
+    background: rgba(248,159,31,0.9);
+}
+
+/* index-section */
+section.index-video{
+    width:100%;
+    overflow: hidden;
+    position:relative;
+    z-index: 1;
+}
+section.index-video video{
+    width:100%;
+}
+
+section.index-video div{
+    position: absolute;
+    text-align: center;
+    margin-top: 250px;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+section.index-video div img{
+    width:30%;
+    min-width: 500px;
+}
+section.index-bg{
+    position: relative;
+    min-height:1050px;
+    background: url("../img/index-bg1.jpg") no-repeat;
+    background-size:3200px 1047px;
+}
+section.index-bg1{
+    position: relative;
+    background: url("../img/hero-every-bg.jpg") no-repeat;
+}
+section.index-bg2{
+    padding: 10px 0;
+    background: rgb(35, 45, 71);
+}
+section.index-bg2>p{
+    font-family: "宋体";
+    font-size: 12px;
+    margin:5px auto;
+    text-align: right;
+    width:1200px;
+    color: #fff;
+}
+
+section.index-bg div h1{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 56px;
+    text-align:center;
+    color: #ffffff;
+}
+section.index-bg div p{
+    margin-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    line-height: 1.47;
+    text-align:center;
+    color: #ffffff;
+}
+section.index-bg div a {
+    margin-top: 50px;
+    color: #fefefe;
+    font-size: 30px;
+    padding: 6px 30px;
+    border-radius: 2px;
+    outline: 0;
+    border: 3px solid #ff9c00;
+    background-color: #ff9c00;
+    line-height: 1;
+    text-shadow: none;
+    text-decoration: none;
+    letter-spacing: .025em;
+    font-weight: 700;
+    text-transform: none;
+    display: inline-block;
+}
+section.index-bg1 img{
+    position:absolute;
+    left:-50px;
+    top:50px;
+    width:800px;
+    height:800px;
+    z-index: 0;
+}
+
+section.index-bg1 div h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 56px;
+    padding-left:400px;
+    letter-spacing: .08rem;
+    background: -webkit-linear-gradient(top,#3f6493 10%, #0b5277 100%);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    -webkit-background-clip: text;
+    text-shadow: 0 4px 5px rgba(60,72,96,.5);
+}
+section.index-bg1 div p{
+    margin-top: 50px;
+    padding-left:600px;
+    padding-right: 200px;
+    font-size: 30px;
+    line-height: 1.47;
+    text-align:center;
+    color: #ffffff;
+}
+section.index-bg1 div a {
+    margin-top: 50px;
+    color: #fefefe;
+    margin-left:860px;
+    font-size: 30px;
+    padding: 6px 30px;
+    border-radius: 2px;
+    outline: 0;
+    border: 3px solid #ff9c00;
+    background-color: #ff9c00;
+    line-height: 1;
+    text-shadow: none;
+    text-decoration: none;
+    letter-spacing: .025em;
+    font-weight: 700;
+    text-transform: none;
+    display: inline-block;
+    z-index: 1000;
+}
+
+/* hero-section */
+section.hero{
+    position: relative;
+    min-height:1080px;
+    background: url("../img/background-hero.jpg") no-repeat;
+}
+section.hero .content{
+    width: 1200px;
+    margin: auto;
+}
+section.hero .content1{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 70px;
+    color: #ffffff;
+}
+section.hero .content2{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #ffffff;
+}
+section.hero .list{
+    list-style: none;
+    margin: 50px auto;
+    padding:0;
+}
+section.hero .list>li{
+    float: left;
+    width: 24.7%;
+    padding: 0 0.1%;
+}
+section.hero .list li>a{
+    transition: all .5s;
+    display: block;
+    padding: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(40,53,79,0.9);
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+section.hero .list li>a:hover{
+    background: rgba(35, 45, 71, 0.9);
+}
+section.hero .list li>a.active{
+    background: rgba(248,159,31,0.9);
+}
+section.hero .detail{
+    margin-top:50px;
+}
+section.hero .detail .hidden{
+    display:none;
+}
+/*section.hero .detail .hero-type{*/
+    /*display: flex;*/
+    /*justify-content:center;*/
+    /*flex-wrap: wrap;*/
+    /*align-items: flex-start;*/
+    /*width: 1200px;*/
+/*}*/
+section.hero .detail .hero-card{
+    /*flex-grow: 1;*/
+    display: inline-block;
+    margin:25px;
+    height: 310px;
+    border:1px solid #ffffff;
+    background: url("../img/hero-detail-bg.jpg") no-repeat;
+    position:relative;
+    transition: all 0.3s;
+}
+section.hero .detail .hero-card:hover{
+    transform: scale(1.2);
+}
+section.hero .detail .hero-card p{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(35, 45, 71, 0.9);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding:5px 0 5px;
+    font-style: italic;
+    transition: all .3s;
+}
+section.hero .detail .hero-card:hover p{
+    color:rgba(35, 45, 71, 0.9);
+    background: #fff;
+}
+/* everyhero-section */
+section.hero1{
+
+    background-repeat:no-repeat;
+    background-position:-600px 0px;
+    position: relative;
+    min-height:1080px;
+    z-index: 1;
+}
+section.hero2{
+    position: relative;
+    min-height:1080px;
+    background: url("../img/hero-every-bg.jpg") no-repeat;
+    z-index: 1;
+}
+section.hero1 .tu1 {
+    position: absolute;
+    right: 120px;
+    top:200px;
+}
+section.hero1 .tu {
+    position: absolute;
+    right: 0px;
+    top:150px;
+}
+section.hero1 .content{
+    width: 1200px;
+    margin: auto;
+}
+section.hero1 .content .content1{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 70px;
+    color: #ffffff;
+}
+section.hero1 .hero-detail-infobox{
+    list-style: none;
+    width: 50%;
+    margin: 0;
+    padding:0;
+}
+section.hero1 .hero-detail-infobox>li{
+    float: left;
+    width: 49%;
+    padding: 0 0.3%;
+    text-align: center;
+}
+section.hero1 .hero-detail-infobox li>a{
+    transition: all .5s;
+    display: block;
+    padding: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(19,42,77,.6);
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+section.hero1 .hero-detail-infobox li>a:hover{
+    background: rgba(35, 45, 71, 0.9);
+}
+section.hero1 .hero-detail-infobox li>a.active{
+    background: rgba(248, 112, 85, 0.9);
+}
+section.hero1 .content .content2 {
+    width: 45.9%;
+    padding: 22px;
+    color: #FFF;
+    background-color: rgba(19,42,77,.6);
+
+}
+section.hero1 .content .content2 .phara {
+    max-width: 90%;
+    border-left: 6px solid #00c3ff;
+    padding-left: 18px;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+section.hero1 .content .content2 .phara1 {
+    max-width: 90%;
+    padding-left: 26px;
+    font-size: inherit;
+    line-height: 1.6;
+    text-rendering: optimizeLegibility;
+}
+section.hero1 .content .content2 .h3-title {
+    color: #00c3ff;
+    line-height: normal;
+    font-style: italic;
+    font-size: 3rem;
+}
+section.hero2 .tu1 {
+    position: absolute;
+    right: 120px;
+    top:200px;
+}
+section.hero2 .tu {
+    position: absolute;
+    right: 0px;
+    top:150px;
+}
+section.hero2 .content{
+    width: 1200px;
+    margin: auto;
+}
+section.hero2 .content .content1{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 70px;
+    color: #ffffff;
+}
+section.hero2 .hero-detail-infobox{
+    list-style: none;
+    width: 50%;
+    margin: 0;
+    padding:0;
+}
+section.hero2 .hero-detail-infobox>li{
+    float: left;
+    width: 49%;
+    padding: 0 0.3%;
+    text-align: center;
+}
+section.hero2 .hero-detail-infobox li>a{
+    transition: all .5s;
+    display: block;
+    padding: 5px 0;
+    font-size: 20px;
+    text-align: center;
+    background: rgba(19,42,77,.6);
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+section.hero2 .hero-detail-infobox li>a:hover{
+    background: rgba(35, 45, 71, 0.9);
+}
+section.hero2 .hero-detail-infobox li>a.active{
+    background: rgba(248, 112, 85, 0.9);
+}
+section.hero2 .content .content2 {
+    width: 45.9%;
+    padding: 22px;
+    color: #FFF;
+    background-color: rgba(19,42,77,.6);
+
+}
+section.hero2 .content .content2 .phara {
+    max-width: 90%;
+    border-left: 6px solid #00c3ff;
+    padding-left: 18px;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+section.hero2 .content .content2 .phara1 {
+    max-width: 90%;
+    padding-left: 18px;
+    margin-left: 12px;
+    margin-top: 40px;
+}
+section.hero2 .content .content2 .h3-title {
+     color: #00c3ff;
+     line-height: normal;
+     font-style: italic;
+     font-size: 3rem;
+ }
+section.hero2 .content .content2 .h {
+    font-size: 2.4rem
+}
+/* map-section */
+section.ditu {
+    position: relative;
+    min-height:1000px;
+    background: url("../img/mp-bg.jpg") ;
+}
+section.ditu div.content{
+    width:1210px;
+    margin: 0 auto;
+}
+section.ditu .mp1{
+    /*position:absolute;*/
+    /*left:100px;*/
+    /*top:150px;*/
+    display: inline-block;
+    width:600px;
+    height:23px;
+    margin: 20px 0;
+}
+section.ditu .mp1 .head{
+    color: #FFF;
+    font-size: 30px;
+}
+section.ditu .mp1 .para{
+    color: #FFF;
+    font-size: 20px;
+}
+section.ditu .mp2{
+    /*position:absolute;*/
+    /*left:800px;*/
+    /*top:150px;*/
+    display: inline-block;
+    width:600px;
+    height:23px;
+    z-index:2;
+}section.ditu .mp2 .head{
+     color: #FFF;
+     font-size: 30px;
+ }
+section.ditu .mp2 .para{
+    color: #FFF;
+    font-size: 20px;
+}
+section.ditu .mp3{
+    /*position:absolute;*/
+    /*left:100px;*/
+    /*top:500px;*/
+    display: inline-block;
+    width:600px;
+    height:23px;
+    z-index:2;
+    margin: 50px 0;
+}section.ditu .mp3 .head{
+     color: #FFF;
+     font-style bold;
+     font-size: 30px;
+ }
+section.ditu .mp3 .para{
+    color: #FFF;
+    font-style bold;
+    font-size: 20px;
+}
+section.ditu .mp4 {
+    /*position: absolute;*/
+    /*left: 800px;*/
+    /*top: 500px;*/
+    display: inline-block;
+    width: 600px;
+    height: 23px;
+    z-index: 2;
+}
+section.ditu .mp4 .head{
+     color: #FFF;
+     font-size: 30px;
+ }
+section.ditu .mp4 .para{
+    color: #FFF;
+    font-size: 20px;
+}
+section.ditu .map-yingdao {
+    color: #ff993a;
+    font-size: 25px;
+    width:1200px;
+    margin:25px auto;
+}
+a{
+    text-decoration: none;
+}
+section.ditu div.map-text{
+    width:1200px;
+    margin:0 auto;
+}
+section.ditu .a1 {
+    color: #FFF;
+    font-size: 25px;
+}
+section.ditu .map-text>h1 {
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
+section.ditu .map-text>h2 {
+    color: rgb(60, 192, 255);
+    font-size: 25px;
+}
+section.ditu .map-text>h3 {
+    color: rgb(255, 175, 136);
+    font-size: 20px;
+}
+section.ditu .map-text>p {
+    color: #ffffff;
+    font-size: 15px;
+}
+/* jizhi-section */
+section.jizhi{
+    position: relative;
+    min-height:1080px;
+    background: url("../img/jz-bg.jpg") no-repeat;
+}
+section.jizhi .content {
+    width: 1400px;
+    margin: auto;
+}
+section.jizhi .detail .jizhi-card{
+    /*flex-grow: 1;*/
+    display: inline-block;
+    margin:25px;
+    height: 310px;
+    border:1px solid #ffffff;
+    position:relative;
+    transition: all 0.3s;
+}
+section.jizhi .detail .jizhi-card:hover{
+    transform: scale(1.2);
+}
+section.jizhi .detail .jizhi-card p{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(35, 45, 71, 0.9);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding:5px 0 5px;
+    font-style: italic;
+    transition: all .3s;
+}
+section.jizhi .detail .jizhi-card:hover p{
+    color:rgba(35, 45, 71, 0.9);
+    background: #fff;
+}
+section.jizhi1{
+    position: relative;
+    min-height:1080px;
+    background: url("../img/mp-bg.jpg") ;
+}
+section.jizhi1 .jizhi-yingdao {
+    color: #ffffff;
+    font-style bold;
+    font-size: 25px;
+}
+section.jizhi1 .a1 {
+    color: #5bf3ff;
+    font-style bold;
+    font-size: 25px;
+}
+section.jizhi1 >h1 {
+    color: #ff1216;
+    font-style bold;
+    font-size: 35px;
+}
+section.jizhi1 >h2 {
+    color: #ffbf0d;
+    font-style bold;
+    font-size: 25px;
+}
+section.jizhi1 >p {
+    color: #FFFFFF;
+    font-style bold;
+    font-size: 20px;
+}
+/* about-section */
+section.about{
+    position: relative;
+    min-height:1080px;
+    background: url("../img/about-bg.jpg") no-repeat;
+}
+section.about .content{
+    width: 1200px;
+    margin: auto;
+}
+section.about .content1{
+    margin-top: 50px;
+    font-style: italic;
+    font-size: 70px;
+    color: #ffffff;
+}
+section.about .content2{
+    margin-top: 25px;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+section.about .detail{
+    /*position: relative;*/
+    margin-top:50px;
+    /*left:300px;*/
+}
+section.about .detail .hidden{
+    display:none;
+}
+
+section.about .detail .about-card{
+    /*flex-grow: 1;*/
+    display: inline-block;
+    margin:25px;
+    height: 310px;
+    border:1px;
+    background: url("../img/hero-detail-bg.jpg") no-repeat;
+    position:relative;
+    transition: all 0.3s;
+}
+section.about .detail .about-card:hover{
+    transform: scale(1.2);
+}
+section.about .detail .about-card p{
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(35, 45, 71, 0.9);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding:5px 0 5px;
+    font-style: italic;
+    transition: all .3s;
+}
+section.about .detail .about-card:hover p{
+    color:rgba(35, 45, 71, 0.9);
+    background: #fff;
+}
+section.about .about-us{
+    position:absolute;
+    left:600px;
+    top:150px;
+    width:800px;
+    height:310px;
+    z-index:2;
+}
+section.about .about-us>h1 {
+    color: #36e7ff;
+    font-style bold;
+    font-size: 35px;
+}
+section.about .about-us>p {
+    color: #FFFFFF;
+    font-style bold;
+    font-size: 20px;
+}
+section.about .about-yingdao {
+    color: #fff;
+    font-style bold;
+    font-size: 25px;
+}
+section.about .a1 {
+    color: #e0ff36;
+    font-style bold;
+    font-size: 25px;
+}
+/* login-section */
+section.login{
+    position: relative;
+    min-height:900px;
+    background: url("../img/login-bg.jpeg") no-repeat;
+}
+section.login .login-content{
+    margin: auto;
+    width: 1200px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+section.login .login-content form{
+    color: #FFFFFF;
+    width: 600px;
+    margin:auto;
+}
+section.login .login-content form h1{
+    padding:40px 0;
+    color: #fff;
+    margin-bottom:0;
+}
+.block{
+    display: block;
+}
+section.login .login-content label{
+    color: #fff;
+    font-size:18px;
+    padding:5px 0;
+}
+section.login .login-content .block{
+    width: 100%;
+    height: 34px;
+    box-sizing: border-box;
+    padding: 3px 12px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    transition: all 0.3s;
+}
+section.login .login-content .block:focus{
+    border-color: #66afe9;
+    outline: 0;
+}
+section.login .login-content button{
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    margin: 20px 0;
+}
+.btn-blue{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+.btn-green{
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+
+section.about div.about-yingdao{
+    width:1200px;
+    margin:25px auto;
+}
+section.about div.about-us{
+    width:1200px;
+    margin:0 auto;
+}
+section.about>img{
+    margin-left:10%;
+}
+section.jizhi1 div.jizhi-yingdao{
+    width:1200px;
+    margin:25px auto;
+}
+section.jizhi1 div.content{
+    width:1200px;
+    margin:0 auto;
+    color: #fff;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/ow.css">
+	<title>登录 - 守望先锋</title>
+</head>
+<body>
+<header id="header">
+	<nav>
+		<a href="index.html"><img src="img/nav-logo-sm.png" alt=""></a>
+		<ul>
+			<li><a href="英雄.html">英雄</a></li>
+			<li><a href="地图.html">地图</a></li>
+			<li><a href="机制.html">机制</a></li>
+			<li><a href="关于.html">关于</a></li>
+			<li><a href="登录.html" class="active">登录</a></li>
+		</ul>
+		<!-- LOGO -->
+	
+	</nav>
+</header>
+
+<section class="login">
+	<div style="height:60px;"></div>
+	<div class="login-content">
+		<form action="">
+			<h1>登录</h1>
+			<label for="username" >用户</label>
+			<input type="text" name="username" id="username" class="block" required>
+			<label for="pwd">密码</label>
+			<input type="password" name="pwd" id="pwd" class="block" required>
+			<button type="submit" class="btn-blue" id="btn-login">登录</button>
+			<button class="btn-green" type="button" id="btnReg">注册</button>
+		</form>
+		<div style="height:40px;"></div>
+	</div>
+</section>
+
+<script>
+	btnReg.onclick=function(){
+		alert("正在跳转！");
+		window.location.href="注册.html";
+	}
+</script>
+<section class="index-bg2">
+	<p>互联网违法和不良信息举报电话：0571-28090163</p>          <p>CSWX小组     倾情奉献</p>
+</section>
+
+</body>
+</html>
